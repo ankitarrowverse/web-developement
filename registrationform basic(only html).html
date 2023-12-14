@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+<h1><b>Race Registration!</b></h1>
+<form method="get" action="google.com">
+    <p>
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname"  placeholder="Enter First Name"  required>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required>
+    </p>
+    <p>
+        <label for="racetype">Select a Race:</label>
+    </p>
+    <p>
+        <label for="funrun">Fun Run 5K</label>
+        <input type="radio" name="racetype" id="funrun" >
+</p>
+    <p>
+        <label for="halfmarathon">Half Marathon</label>
+        <input type="radio" name="racetype" id="racetype"Half Marathon>
+    </p>
+    <p>
+        <label for="fullmarathon">Full Marathon</label>
+        <input type="radio" name="racetype" id="fullmarathon">
+    </p>
+    <p>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="Enter Email" required>
+<label for="password">Password</label>
+<input type="password" id="password" name="password" placeholder="Enter Password" required>
+</p>
+<p>
+    <label for="age">Select Age Group</label>
+    <select id="age">
+      <option value="under18">Under 18</option>
+      <option value="18-45">18-45</option>
+      <option value="above45">Above 45</option>
+    </select>
+</p>
+<button type="submit">Register</button>
+</form>
+    </body>
+</html>
